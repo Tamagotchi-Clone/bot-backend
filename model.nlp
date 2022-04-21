@@ -33,83 +33,361 @@
           "useStemDict": true
         },
         "stemDict": {
-          "for,goodby,now": {
-            "intent": "greetings.bye",
+          "hungri": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "bye,care,take": {
-            "intent": "greetings.bye",
+          "snack": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "later,okay,see,you": {
-            "intent": "greetings.bye",
+          "do,eat,to,want,you": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "bye,for,now": {
-            "intent": "greetings.bye",
+          "a,do,snack,want,you": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "go,i,must": {
-            "intent": "greetings.bye",
+          "are,hungri,you": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "hello": {
-            "intent": "greetings.hello",
+          "breakfast,do,want,you": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "hi": {
-            "intent": "greetings.hello",
+          "dinner,do,want,you": {
+            "intent": "greetings.feed",
             "domain": "default"
           },
-          "howdi": {
-            "intent": "greetings.hello",
+          "do,lunch,want,you": {
+            "intent": "greetings.feed",
+            "domain": "default"
+          },
+          "do,food,want,you": {
+            "intent": "greetings.feed",
+            "domain": "default"
+          },
+          "food": {
+            "intent": "greetings.feed",
+            "domain": "default"
+          },
+          "play,time": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "do,play,to,want,you": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "a,do,game,play,to,want,you": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "do,me,play,to,want,with,you": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "are,bore,you": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "play": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "is,let,play": {
+            "intent": "greetings.play",
+            "domain": "default"
+          },
+          "a,bath,do,want,you": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "bath,time": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "are,dirti,you": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "clean": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "be,clean,do,to,want,you": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "a,bath,can,give,i,you": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "can,clean,i,you": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "bath,bubbl": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "wash": {
+            "intent": "greetings.clean",
+            "domain": "default"
+          },
+          "are,friend,we": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "be,friend,my,will,you": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "be,friend,to,want": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "be,do,friend,my,to,want,you": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "do,like,me,you": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "best,friend,is,who,your": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "friend": {
+            "intent": "greetings.friend",
+            "domain": "default"
+          },
+          "i,love,you": {
+            "intent": "greetings.love",
+            "domain": "default"
+          },
+          "i,luv,you": {
+            "intent": "greetings.love",
+            "domain": "default"
+          },
+          "i,luv,u": {
+            "intent": "greetings.love",
+            "domain": "default"
+          },
+          "love": {
+            "intent": "greetings.love",
+            "domain": "default"
+          },
+          "alway,i,love,will,you": {
+            "intent": "greetings.love",
             "domain": "default"
           }
         },
         "intentDict": {
-          "greetings.bye": "default",
-          "greetings.hello": "default"
+          "greetings.feed": "default",
+          "greetings.play": "default",
+          "greetings.clean": "default",
+          "greetings.friend": "default",
+          "greetings.love": "default"
         },
         "sentences": [
           {
             "domain": "default",
-            "utterance": "goodbye for now",
-            "intent": "greetings.bye"
+            "utterance": "Hungry?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "bye bye take care",
-            "intent": "greetings.bye"
+            "utterance": "Snack?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "okay see you later",
-            "intent": "greetings.bye"
+            "utterance": "Do you want to eat?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "bye for now",
-            "intent": "greetings.bye"
+            "utterance": "Do you want a snack?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "i must go",
-            "intent": "greetings.bye"
+            "utterance": "Are you hungry?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "hello",
-            "intent": "greetings.hello"
+            "utterance": "Do you want breakfast?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "hi",
-            "intent": "greetings.hello"
+            "utterance": "Do you want dinner?",
+            "intent": "greetings.feed"
           },
           {
             "domain": "default",
-            "utterance": "howdy",
-            "intent": "greetings.hello"
+            "utterance": "Do you want lunch?",
+            "intent": "greetings.feed"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want food?",
+            "intent": "greetings.feed"
+          },
+          {
+            "domain": "default",
+            "utterance": "Food?",
+            "intent": "greetings.feed"
+          },
+          {
+            "domain": "default",
+            "utterance": "Play time?",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want to play?",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want to play a game?",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want to play with me?",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Are you bored?",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Play?",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Let's Play!",
+            "intent": "greetings.play"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want a bath?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bath time?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Are you dirty?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Clean?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want to be clean?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I give you a bath?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Can I clean you?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bubble bath?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Wash?",
+            "intent": "greetings.clean"
+          },
+          {
+            "domain": "default",
+            "utterance": "Are we friends?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Will you be my friend?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Want to be friends?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you want to be my friend?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Do you like me?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Who is your best friend?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Will you be my friend?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "Friends?",
+            "intent": "greetings.friend"
+          },
+          {
+            "domain": "default",
+            "utterance": "I love you",
+            "intent": "greetings.love"
+          },
+          {
+            "domain": "default",
+            "utterance": "I luv you",
+            "intent": "greetings.love"
+          },
+          {
+            "domain": "default",
+            "utterance": "I luv u",
+            "intent": "greetings.love"
+          },
+          {
+            "domain": "default",
+            "utterance": "Love",
+            "intent": "greetings.love"
+          },
+          {
+            "domain": "default",
+            "utterance": "I will always love you",
+            "intent": "greetings.love"
           }
         ],
         "domains": {
@@ -126,97 +404,284 @@
               "log": true
             },
             "features": {
-              "goodby": 1,
-              "for": 1,
-              "now": 1,
-              "bye": 1,
-              "take": 1,
-              "care": 1,
-              "okay": 1,
-              "see": 1,
+              "hungri": 1,
+              "snack": 1,
+              "do": 1,
               "you": 1,
-              "later": 1,
+              "want": 1,
+              "to": 1,
+              "eat": 1,
+              "a": 1,
+              "are": 1,
+              "breakfast": 1,
+              "dinner": 1,
+              "lunch": 1,
+              "food": 1,
+              "play": 1,
+              "time": 1,
+              "game": 1,
+              "with": 1,
+              "me": 1,
+              "bore": 1,
+              "let": 1,
+              "is": 1,
+              "bath": 1,
+              "dirti": 1,
+              "clean": 1,
+              "be": 1,
+              "can": 1,
               "i": 1,
-              "must": 1,
-              "go": 1,
-              "hello": 1,
-              "hi": 1,
-              "howdi": 1
+              "give": 1,
+              "bubbl": 1,
+              "wash": 1,
+              "we": 1,
+              "friend": 1,
+              "will": 1,
+              "my": 1,
+              "like": 1,
+              "who": 1,
+              "your": 1,
+              "best": 1,
+              "love": 1,
+              "luv": 1,
+              "u": 1,
+              "alway": 1
             },
             "intents": {
-              "greetings.bye": 1,
-              "greetings.hello": 1
+              "greetings.feed": 1,
+              "greetings.play": 1,
+              "greetings.clean": 1,
+              "greetings.friend": 1,
+              "greetings.love": 1
             },
             "intentFeatures": {
-              "greetings.bye": {
-                "goodby": 1,
-                "for": 1,
-                "now": 1,
-                "bye": 1,
-                "take": 1,
-                "care": 1,
-                "okay": 1,
-                "see": 1,
+              "greetings.feed": {
+                "hungri": 1,
+                "snack": 1,
+                "do": 1,
                 "you": 1,
-                "later": 1,
-                "i": 1,
-                "must": 1,
-                "go": 1
+                "want": 1,
+                "to": 1,
+                "eat": 1,
+                "a": 1,
+                "are": 1,
+                "breakfast": 1,
+                "dinner": 1,
+                "lunch": 1,
+                "food": 1
               },
-              "greetings.hello": {
-                "hello": 1,
-                "hi": 1,
-                "howdi": 1
+              "greetings.play": {
+                "play": 1,
+                "time": 1,
+                "do": 1,
+                "you": 1,
+                "want": 1,
+                "to": 1,
+                "a": 1,
+                "game": 1,
+                "with": 1,
+                "me": 1,
+                "are": 1,
+                "bore": 1,
+                "let": 1,
+                "is": 1
+              },
+              "greetings.clean": {
+                "do": 1,
+                "you": 1,
+                "want": 1,
+                "a": 1,
+                "bath": 1,
+                "time": 1,
+                "are": 1,
+                "dirti": 1,
+                "clean": 1,
+                "to": 1,
+                "be": 1,
+                "can": 1,
+                "i": 1,
+                "give": 1,
+                "bubbl": 1,
+                "wash": 1
+              },
+              "greetings.friend": {
+                "are": 1,
+                "we": 1,
+                "friend": 1,
+                "will": 1,
+                "you": 1,
+                "be": 1,
+                "my": 1,
+                "want": 1,
+                "to": 1,
+                "do": 1,
+                "like": 1,
+                "me": 1,
+                "who": 1,
+                "is": 1,
+                "your": 1,
+                "best": 1
+              },
+              "greetings.love": {
+                "i": 1,
+                "love": 1,
+                "you": 1,
+                "luv": 1,
+                "u": 1,
+                "will": 1,
+                "alway": 1
               }
             },
             "featuresToIntent": {
-              "goodby": [
-                "greetings.bye"
+              "hungri": [
+                "greetings.feed"
               ],
-              "for": [
-                "greetings.bye"
+              "snack": [
+                "greetings.feed"
               ],
-              "now": [
-                "greetings.bye"
-              ],
-              "bye": [
-                "greetings.bye"
-              ],
-              "take": [
-                "greetings.bye"
-              ],
-              "care": [
-                "greetings.bye"
-              ],
-              "okay": [
-                "greetings.bye"
-              ],
-              "see": [
-                "greetings.bye"
+              "do": [
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean",
+                "greetings.friend"
               ],
               "you": [
-                "greetings.bye"
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean",
+                "greetings.friend",
+                "greetings.love"
               ],
-              "later": [
-                "greetings.bye"
+              "want": [
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean",
+                "greetings.friend"
+              ],
+              "to": [
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean",
+                "greetings.friend"
+              ],
+              "eat": [
+                "greetings.feed"
+              ],
+              "a": [
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean"
+              ],
+              "are": [
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean",
+                "greetings.friend"
+              ],
+              "breakfast": [
+                "greetings.feed"
+              ],
+              "dinner": [
+                "greetings.feed"
+              ],
+              "lunch": [
+                "greetings.feed"
+              ],
+              "food": [
+                "greetings.feed"
+              ],
+              "play": [
+                "greetings.play"
+              ],
+              "time": [
+                "greetings.play",
+                "greetings.clean"
+              ],
+              "game": [
+                "greetings.play"
+              ],
+              "with": [
+                "greetings.play"
+              ],
+              "me": [
+                "greetings.play",
+                "greetings.friend"
+              ],
+              "bore": [
+                "greetings.play"
+              ],
+              "let": [
+                "greetings.play"
+              ],
+              "is": [
+                "greetings.play",
+                "greetings.friend"
+              ],
+              "bath": [
+                "greetings.clean"
+              ],
+              "dirti": [
+                "greetings.clean"
+              ],
+              "clean": [
+                "greetings.clean"
+              ],
+              "be": [
+                "greetings.clean",
+                "greetings.friend"
+              ],
+              "can": [
+                "greetings.clean"
               ],
               "i": [
-                "greetings.bye"
+                "greetings.clean",
+                "greetings.love"
               ],
-              "must": [
-                "greetings.bye"
+              "give": [
+                "greetings.clean"
               ],
-              "go": [
-                "greetings.bye"
+              "bubbl": [
+                "greetings.clean"
               ],
-              "hello": [
-                "greetings.hello"
+              "wash": [
+                "greetings.clean"
               ],
-              "hi": [
-                "greetings.hello"
+              "we": [
+                "greetings.friend"
               ],
-              "howdi": [
-                "greetings.hello"
+              "friend": [
+                "greetings.friend"
+              ],
+              "will": [
+                "greetings.friend",
+                "greetings.love"
+              ],
+              "my": [
+                "greetings.friend"
+              ],
+              "like": [
+                "greetings.friend"
+              ],
+              "who": [
+                "greetings.friend"
+              ],
+              "your": [
+                "greetings.friend"
+              ],
+              "best": [
+                "greetings.friend"
+              ],
+              "love": [
+                "greetings.love"
+              ],
+              "luv": [
+                "greetings.love"
+              ],
+              "u": [
+                "greetings.love"
+              ],
+              "alway": [
+                "greetings.love"
               ]
             },
             "neuralNetwork": {
@@ -232,65 +697,281 @@
                 "log": true
               },
               "features": [
-                "goodby",
-                "for",
-                "now",
-                "bye",
-                "take",
-                "care",
-                "okay",
-                "see",
+                "hungri",
+                "snack",
+                "do",
                 "you",
-                "later",
+                "want",
+                "to",
+                "eat",
+                "a",
+                "are",
+                "breakfast",
+                "dinner",
+                "lunch",
+                "food",
+                "play",
+                "time",
+                "game",
+                "with",
+                "me",
+                "bore",
+                "let",
+                "is",
+                "bath",
+                "dirti",
+                "clean",
+                "be",
+                "can",
                 "i",
-                "must",
-                "go",
-                "hello",
-                "hi",
-                "howdi"
+                "give",
+                "bubbl",
+                "wash",
+                "we",
+                "friend",
+                "will",
+                "my",
+                "like",
+                "who",
+                "your",
+                "best",
+                "love",
+                "luv",
+                "u",
+                "alway"
               ],
               "intents": [
-                "greetings.bye",
-                "greetings.hello"
+                "greetings.feed",
+                "greetings.play",
+                "greetings.clean",
+                "greetings.friend",
+                "greetings.love"
               ],
               "perceptrons": [
                 [
-                  3.547337532043457,
-                  3.835749387741089,
-                  3.835749387741089,
-                  3.9585132598876953,
-                  3.6766104698181152,
-                  3.6766104698181152,
-                  2.8525924682617188,
-                  2.8525924682617188,
-                  2.8525924682617188,
-                  2.8525924682617188,
-                  3.805833339691162,
-                  3.805833339691162,
-                  3.805833339691162,
-                  -2.83388614654541,
-                  -2.817099094390869,
-                  -2.7995951175689697,
-                  2.85592960855999
+                  9.431612014770508,
+                  9.386600494384766,
+                  0.19317078590393066,
+                  -0.9860785007476807,
+                  2.4401347637176514,
+                  -1.2704260349273682,
+                  8.649486541748047,
+                  -2.13104510307312,
+                  0.3685542941093445,
+                  7.271584510803223,
+                  7.234219074249268,
+                  7.1916608810424805,
+                  8.187070846557617,
+                  -7.45933723449707,
+                  -0.6313799023628235,
+                  -1.6622178554534912,
+                  -1.0355846881866455,
+                  -3.431074380874634,
+                  -4.5436906814575195,
+                  0,
+                  -0.33551594614982605,
+                  -5.775551795959473,
+                  -4.521119117736816,
+                  -5.177983283996582,
+                  -3.1301164627075195,
+                  -0.4047970771789551,
+                  -2.672842025756836,
+                  -0.07516909390687943,
+                  -0.14751330018043518,
+                  -5.17615270614624,
+                  -0.5624718070030212,
+                  -5.174316883087158,
+                  -0.2982596755027771,
+                  -0.9382126927375793,
+                  -2.2367913722991943,
+                  -0.33551594614982605,
+                  -0.33551594614982605,
+                  -0.33551594614982605,
+                  -5.171903610229492,
+                  -1.6885931491851807,
+                  -0.8410359621047974,
+                  -0.01949833333492279,
+                  5.210607200473343
                 ],
                 [
-                  -1.8950731754302979,
-                  -2.457380771636963,
-                  -2.457380771636963,
-                  -2.644037961959839,
-                  -2.081730604171753,
-                  -2.081730604171753,
-                  -1.7042158842086792,
-                  -1.7042158842086792,
-                  -1.7042158842086792,
-                  -1.7042158842086792,
-                  -2.267854690551758,
-                  -2.267854690551758,
-                  -2.267854690551758,
-                  7.381767749786377,
-                  7.414748668670654,
-                  7.374270915985107,
-                  6.835164150442489
+                  -3.825406789779663,
+                  -0.9993140697479248,
+                  -1.2261910438537598,
+                  0.5771398544311523,
+                  -0.6679950952529907,
+                  1.359360694885254,
+                  -1.747317910194397,
+                  -0.971194326877594,
+                  2.232882499694824,
+                  -0.18913109600543976,
+                  -0.10122416913509369,
+                  -0.050281673669815063,
+                  -0.9991998076438904,
+                  13.247965812683105,
+                  0.05394231528043747,
+                  0.9672213792800903,
+                  0.48217642307281494,
+                  -0.4856414794921875,
+                  10.474498748779297,
+                  0.11838015913963318,
+                  -0.07601195573806763,
+                  -2.411449909210205,
+                  -3.8297133445739746,
+                  -1.7952971458435059,
+                  -2.522139072418213,
+                  -0.41986414790153503,
+                  -1.2341581583023071,
+                  -0.19768662750720978,
+                  -0.010487408377230167,
+                  -0.999721109867096,
+                  -0.9215577244758606,
+                  -2.3120222091674805,
+                  -0.17943447828292847,
+                  -0.6548298001289368,
+                  -0.9255576133728027,
+                  -0.16830132901668549,
+                  -0.16830132901668549,
+                  -0.16830132901668549,
+                  -0.99957275390625,
+                  -0.4046342372894287,
+                  -0.02753775753080845,
+                  -0.03128185495734215,
+                  1.0013197143451915
+                ],
+                [
+                  -4.285403251647949,
+                  -3.8879919052124023,
+                  -0.7623527646064758,
+                  -0.30479902029037476,
+                  -0.4160151183605194,
+                  0.10876017808914185,
+                  -1.856070876121521,
+                  2.373220920562744,
+                  1.5867552757263184,
+                  -1.5133675336837769,
+                  -1.5127838850021362,
+                  -1.511815071105957,
+                  -3.0944533348083496,
+                  -3.937746286392212,
+                  0.8992701172828674,
+                  -0.2926521897315979,
+                  0,
+                  -1.4308048486709595,
+                  -4.280433654785156,
+                  -0.15631328523159027,
+                  -0.27811527252197266,
+                  10.385123252868652,
+                  10.00404167175293,
+                  11.304221153259277,
+                  1.357391357421875,
+                  2.0222766399383545,
+                  -1.7489231824874878,
+                  -1.4289779663085938,
+                  0.9001674056053162,
+                  11.281567573547363,
+                  -1.0016318559646606,
+                  -4.366305828094482,
+                  -1.2356895208358765,
+                  -1.710846185684204,
+                  -1.4308048486709595,
+                  -0.08706403523683548,
+                  -0.08706403523683548,
+                  -0.08706403523683548,
+                  -3.155750036239624,
+                  -1.9158401489257812,
+                  -0.4489784240722656,
+                  -0.32678520679473877,
+                  2.9995953753668734
+                ],
+                [
+                  -1.5217103958129883,
+                  -1.5216692686080933,
+                  1.5603309869766235,
+                  -1.9466896057128906,
+                  -2.0869181156158447,
+                  -0.2989969253540039,
+                  -0.7295008301734924,
+                  -0.5378347039222717,
+                  -0.821521520614624,
+                  -0.38012054562568665,
+                  -0.2931601405143738,
+                  -0.21080811321735382,
+                  -1.5216251611709595,
+                  -2.860299825668335,
+                  -0.5791045427322388,
+                  -0.04960593953728676,
+                  -1.8738417625427246,
+                  5.637894153594971,
+                  -0.5615594983100891,
+                  -0.3553645610809326,
+                  -0.2861396074295044,
+                  -0.9563360214233398,
+                  -0.4871986210346222,
+                  -2.077613592147827,
+                  2.4089179039001465,
+                  0,
+                  -1.554773211479187,
+                  0,
+                  -0.5656806230545044,
+                  -1.5215624570846558,
+                  0.8419033885002136,
+                  12.747111320495605,
+                  -0.8206083178520203,
+                  0.37675589323043823,
+                  7.513735294342041,
+                  0.1015736311674118,
+                  0.1015736311674118,
+                  0.1015736311674118,
+                  -1.521797776222229,
+                  -0.5817774534225464,
+                  -0.10958655178546906,
+                  -0.32565298676490784,
+                  1.522340785568743
+                ],
+                [
+                  -2.151827573776245,
+                  -2.1509106159210205,
+                  -1.2978595495224,
+                  -0.972341001033783,
+                  -1.2978595495224,
+                  -0.28456586599349976,
+                  -0.24534715712070465,
+                  -1.5015885829925537,
+                  -1.2713849544525146,
+                  -0.18373429775238037,
+                  -0.13370268046855927,
+                  -0.09052687883377075,
+                  -2.149981737136841,
+                  -2.1490442752838135,
+                  -0.4969845712184906,
+                  0,
+                  0,
+                  0,
+                  -0.37146270275115967,
+                  -0.20553289353847504,
+                  -0.30083167552948,
+                  -1.8546706438064575,
+                  -0.2932190001010895,
+                  -2.510922908782959,
+                  -0.5077416896820068,
+                  -3.6265506744384766,
+                  1.447062373161316,
+                  -1.2050979137420654,
+                  -0.30474042892456055,
+                  -2.1476733684539795,
+                  -0.0056134373880922794,
+                  -2.146710157394409,
+                  -0.3935866355895996,
+                  -0.5077416896820068,
+                  0,
+                  -0.07500889897346497,
+                  -0.07500889897346497,
+                  -0.07500889897346497,
+                  11.884401321411133,
+                  11.47613525390625,
+                  -0.7357902526855469,
+                  0.13282334804534912,
+                  2.1711478491336624
                 ]
               ]
             }
@@ -302,35 +983,159 @@
     "extraSentences": [
       [
         "en",
-        "goodbye for now"
+        "Hungry?"
       ],
       [
         "en",
-        "bye bye take care"
+        "Snack?"
       ],
       [
         "en",
-        "okay see you later"
+        "Do you want to eat?"
       ],
       [
         "en",
-        "bye for now"
+        "Do you want a snack?"
       ],
       [
         "en",
-        "i must go"
+        "Are you hungry?"
       ],
       [
         "en",
-        "hello"
+        "Do you want breakfast?"
       ],
       [
         "en",
-        "hi"
+        "Do you want dinner?"
       ],
       [
         "en",
-        "howdy"
+        "Do you want lunch?"
+      ],
+      [
+        "en",
+        "Do you want food?"
+      ],
+      [
+        "en",
+        "Food?"
+      ],
+      [
+        "en",
+        "Play time?"
+      ],
+      [
+        "en",
+        "Do you want to play?"
+      ],
+      [
+        "en",
+        "Do you want to play a game?"
+      ],
+      [
+        "en",
+        "Do you want to play with me?"
+      ],
+      [
+        "en",
+        "Are you bored?"
+      ],
+      [
+        "en",
+        "Play?"
+      ],
+      [
+        "en",
+        "Let's Play!"
+      ],
+      [
+        "en",
+        "Do you want a bath?"
+      ],
+      [
+        "en",
+        "Bath time?"
+      ],
+      [
+        "en",
+        "Are you dirty?"
+      ],
+      [
+        "en",
+        "Clean?"
+      ],
+      [
+        "en",
+        "Do you want to be clean?"
+      ],
+      [
+        "en",
+        "Can I give you a bath?"
+      ],
+      [
+        "en",
+        "Can I clean you?"
+      ],
+      [
+        "en",
+        "Bubble bath?"
+      ],
+      [
+        "en",
+        "Wash?"
+      ],
+      [
+        "en",
+        "Are we friends?"
+      ],
+      [
+        "en",
+        "Will you be my friend?"
+      ],
+      [
+        "en",
+        "Want to be friends?"
+      ],
+      [
+        "en",
+        "Do you want to be my friend?"
+      ],
+      [
+        "en",
+        "Do you like me?"
+      ],
+      [
+        "en",
+        "Who is your best friend?"
+      ],
+      [
+        "en",
+        "Will you be my friend?"
+      ],
+      [
+        "en",
+        "Friends?"
+      ],
+      [
+        "en",
+        "I love you"
+      ],
+      [
+        "en",
+        "I luv you"
+      ],
+      [
+        "en",
+        "I luv u"
+      ],
+      [
+        "en",
+        "Love"
+      ],
+      [
+        "en",
+        "I will always love you"
       ]
     ]
   },
@@ -348,20 +1153,113 @@
     },
     "responses": {
       "en": {
-        "greetings.bye": [
+        "greetings.feed": [
           {
-            "answer": "Till next time"
+            "answer": "hungry!"
           },
           {
-            "answer": "see you soon!"
+            "answer": "snack?"
+          },
+          {
+            "answer": "I could go for a bite"
+          },
+          {
+            "answer": "can I have a little treat?"
+          },
+          {
+            "answer": "I'm starving!"
+          },
+          {
+            "answer": "My tummy is hungry…"
+          },
+          {
+            "answer": "yumyumyum!"
+          },
+          {
+            "answer": "more snacks plz!"
+          },
+          {
+            "answer": "what's cooking?"
           }
         ],
-        "greetings.hello": [
+        "greetings.play": [
           {
-            "answer": "Hey there!"
+            "answer": "Can we play a game?"
           },
           {
-            "answer": "Greetings!"
+            "answer": "I'm bored! Play with me!"
+          },
+          {
+            "answer": "Time to play!"
+          },
+          {
+            "answer": "I need attention, let's play a game!"
+          },
+          {
+            "answer": "What to do…? Oh! I know! Let's PLAY!"
+          },
+          {
+            "answer": "Hide and seek?"
+          }
+        ],
+        "greetings.clean": [
+          {
+            "answer": "I don't want to be stinky, bath time?"
+          },
+          {
+            "answer": "Bubble bath?"
+          },
+          {
+            "answer": "I would like to splash in the bath please!"
+          },
+          {
+            "answer": "Bath time!"
+          },
+          {
+            "answer": "Time to wash up"
+          },
+          {
+            "answer": "Can I bring my rubber duck in the bath?"
+          },
+          {
+            "answer": "Time to get clean!"
+          },
+          {
+            "answer": "Scrub a dub dub!"
+          }
+        ],
+        "greetings.friend": [
+          {
+            "answer": "You're my best friend!"
+          },
+          {
+            "answer": "I am so glad we are friends!"
+          },
+          {
+            "answer": "BFF? 4ever?"
+          },
+          {
+            "answer": "I love having a friend like you"
+          },
+          {
+            "answer": "You're my favorite friend!"
+          },
+          {
+            "answer": "I hope we stay friends for a long time"
+          }
+        ],
+        "greetings.love": [
+          {
+            "answer": "I love you!"
+          },
+          {
+            "answer": "I love playing with you!"
+          },
+          {
+            "answer": "I love hanging out with you!"
+          },
+          {
+            "answer": "I love spending time together!"
           }
         ]
       }

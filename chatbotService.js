@@ -3,6 +3,14 @@ const manager = new NlpManager({ languages: ["en"] });
 
 async function trainChatBotIA() {
   return new Promise(async (resolve, reject) => {
+    manager.addDocument("en", "Hi there", "greetings.hello");
+    manager.addDocument("en", "Hello!", "greetings.hello");
+    manager.addDocument("en", "Good morning", "greetings.hello");
+
+    manager.addDocument("en", "Good night!", "greetings.goodbye");
+    manager.addDocument("en", "see ya!", "greetings.goodbye");
+    manager.addDocument("en", "goodbye", "greetings.goodbye");
+
     manager.addDocument("en", "Hungry?", "greetings.feed");
     manager.addDocument("en", "Snack?", "greetings.feed");
     manager.addDocument("en", "Do you want to eat?", "greetings.feed");
@@ -13,6 +21,7 @@ async function trainChatBotIA() {
     manager.addDocument("en", "Do you want lunch?", "greetings.feed");
     manager.addDocument("en", "Do you want food?", "greetings.feed");
     manager.addDocument("en", "Food?", "greetings.feed");
+
     manager.addDocument("en", "Play time?", "greetings.play");
     manager.addDocument("en", "Do you want to play?", "greetings.play");
     manager.addDocument("en", "Do you want to play a game?", "greetings.play");
@@ -20,6 +29,7 @@ async function trainChatBotIA() {
     manager.addDocument("en", "Are you bored?", "greetings.play");
     manager.addDocument("en", "Play?", "greetings.play");
     manager.addDocument("en", "Let's Play!", "greetings.play");
+
     manager.addDocument("en", "Do you want a bath?", "greetings.clean");
     manager.addDocument("en", "Bath time?", "greetings.clean");
     manager.addDocument("en", "Are you dirty?", "greetings.clean");
@@ -29,6 +39,7 @@ async function trainChatBotIA() {
     manager.addDocument("en", "Can I clean you?", "greetings.clean");
     manager.addDocument("en", "Bubble bath?", "greetings.clean");
     manager.addDocument("en", "Wash?", "greetings.clean");
+
     manager.addDocument("en", "Are we friends?", "greetings.friend");
     manager.addDocument("en", "Will you be my friend?", "greetings.friend");
     manager.addDocument("en", "Want to be friends?", "greetings.friend");
@@ -41,11 +52,20 @@ async function trainChatBotIA() {
     manager.addDocument("en", "Who is your best friend?", "greetings.friend");
     manager.addDocument("en", "Will you be my friend?", "greetings.friend");
     manager.addDocument("en", "Friends?", "greetings.friend");
+
     manager.addDocument("en", "I love you", "greetings.love");
     manager.addDocument("en", "I luv you", "greetings.love");
     manager.addDocument("en", "I luv u", "greetings.love");
     manager.addDocument("en", "Love", "greetings.love");
     manager.addDocument("en", "I will always love you", "greetings.love");
+
+    manager.addAnswer("en", "greetings.hello", "hi!");
+    manager.addAnswer("en", "greetings.hello", "you're back!");
+    manager.addAnswer("en", "greetings.hello", "hi again!");
+
+    manager.addAnswer("en", "greetings.goodbye", "see you soon!");
+    manager.addAnswer("en", "greetings.goodbye", "bye bye!");
+    manager.addAnswer("en", "greetings.goodbye", "goodbye!");
 
     manager.addAnswer("en", "greetings.feed", "hungry!");
     manager.addAnswer("en", "greetings.feed", "snack?");
@@ -56,6 +76,7 @@ async function trainChatBotIA() {
     manager.addAnswer("en", "greetings.feed", "yumyumyum!");
     manager.addAnswer("en", "greetings.feed", "more snacks plz!");
     manager.addAnswer("en", "greetings.feed", "what's cooking?");
+
     manager.addAnswer("en", "greetings.play", "Can we play a game?");
     manager.addAnswer("en", "greetings.play", "I'm bored! Play with me!");
     manager.addAnswer("en", "greetings.play", "Time to play!");
@@ -70,6 +91,7 @@ async function trainChatBotIA() {
       "What to do…? Oh! I know! Let's PLAY!"
     );
     manager.addAnswer("en", "greetings.play", "Hide and seek?");
+
     manager.addAnswer(
       "en",
       "greetings.clean",
@@ -90,6 +112,7 @@ async function trainChatBotIA() {
     );
     manager.addAnswer("en", "greetings.clean", "Time to get clean!");
     manager.addAnswer("en", "greetings.clean", "Scrub a dub dub!");
+
     manager.addAnswer("en", "greetings.friend", "You're my best friend!");
     manager.addAnswer("en", "greetings.friend", "I am so glad we are friends!");
     manager.addAnswer("en", "greetings.friend", "BFF? 4ever?");
@@ -104,6 +127,7 @@ async function trainChatBotIA() {
       "greetings.friend",
       "I hope we stay friends for a long time"
     );
+
     manager.addAnswer("en", "greetings.love", "I love you!");
     manager.addAnswer("en", "greetings.love", "I love playing with you!");
     manager.addAnswer("en", "greetings.love", "I love hanging out with you!");

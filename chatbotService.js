@@ -1,7 +1,7 @@
 const { NlpManager } = require("node-nlp");
 const manager = new NlpManager({ languages: ["en"] });
 
-async function trainChatBotIA() {
+async function trainChatBotAI() {
   return new Promise(async (resolve, reject) => {
     manager.addDocument("en", "Hi there", "greetings.hello");
     manager.addDocument("en", "Hello!", "greetings.hello");
@@ -164,5 +164,5 @@ const connectWebSocket = (io) => {
 };
 module.exports = {
   connectWebSocket,
-  trainChatBotIA,
+  trainChatBotAI,
 };

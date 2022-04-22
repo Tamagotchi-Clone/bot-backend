@@ -22,7 +22,7 @@ app.use(function (req, res, next) {
   next(createError(404));
 });
 //train the AI
-trainAI.trainChatBotIA();
+trainAI.trainChatBotAI();
 // error handler
 app.use(function (err, req, res, next) {
   // set locals, only providing error in development
